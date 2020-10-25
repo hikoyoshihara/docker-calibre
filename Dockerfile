@@ -30,20 +30,19 @@ RUN \
 	ttf-wqy-zenhei \
 	wget \
 	hunspell \
-	hyphen \
-	icu \
-	jxrlib \
-	libmtp \
-	libusb \
-	libwmf \
-	mathjax \
-	mtdev \
+	icu-devtools \
+	libjxr-tools \
+	libmtp-dev \
+	libusb-dev \
+	libwmf-dev \
+	libjs-mathjax \
+	mtdev-tools \
 	optipng \
-	podofo \
+	libpodofo-dev \
 	python-apsw \
-	python-beautifulsoup4 \
+	python-bs4 \
 	python-cssselect \
-	python-css-parser \
+	python3-css-parser \
 	python-dateutil \
 	python-dbus \
 	python-dnspython \
@@ -55,16 +54,16 @@ RUN \
 	python-mechanize \
 	python-msgpack \
 	python-netifaces \
-	python-unrardll \
+	python3-unrardll \
 	python-pillow \
 	python-psutil \
-	python-pychm \
+	python3-pychm \
 	python-pygments \
 	python-pyqt5 \
-	python-pyqtwebengine \
+	python3-pyqt5.qtwebengine \
 	python-regex \
 	python-zeroconf \
-	qt5-svg \
+	libqt5svg5-dev \
 	udisks2 \
 	xz-utils && \
  echo "**** install calibre ****" && \
