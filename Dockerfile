@@ -42,7 +42,6 @@ RUN \
 	python-apsw \
 	python-bs4 \
 	python-cssselect \
-	python3-css-parser \
 	python-dateutil \
 	python-dbus \
 	python-dnspython \
@@ -54,10 +53,8 @@ RUN \
 	python-mechanize \
 	python-msgpack \
 	python-netifaces \
-	python3-unrardll \
 	python-pillow \
 	python-psutil \
-	python3-pychm \
 	python-pygments \
 	python-pyqt5 \
 	python3-pyqt5.qtwebengine \
