@@ -29,6 +29,43 @@ RUN \
 	python3-xdg \
 	ttf-wqy-zenhei \
 	wget \
+	hunspell \
+	hyphen \
+	icu \
+	jxrlib \
+	libmtp \
+	libusb \
+	libwmf \
+	mathjax \
+	mtdev \
+	optipng \
+	podofo \
+	python-apsw \
+	python-beautifulsoup4 \
+	python-cssselect \
+	python-css-parser \
+	python-dateutil \
+	python-dbus \
+	python-dnspython \
+	python-feedparser \
+	python-html2text \
+	python-html5-parser \
+	python-lxml \
+	python-markdown \
+	python-mechanize \
+	python-msgpack \
+	python-netifaces \
+	python-unrardll \
+	python-pillow \
+	python-psutil \
+	python-pychm \
+	python-pygments \
+	python-pyqt5 \
+	python-pyqtwebengine \
+	python-regex \
+	python-zeroconf \
+	qt5-svg \
+	udisks2 \
 	xz-utils && \
  echo "**** install calibre ****" && \
  mkdir -p \
